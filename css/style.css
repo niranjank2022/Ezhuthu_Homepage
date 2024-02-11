@@ -3,3 +3,12 @@ header {
     position: sticky;
     top: 0;
   }
+
+  /* .lead, .fw-normal {
+    background-color: black;
+    color: white;
+  }  */
+
+  footer {
+    background-color: black;    
+  }
