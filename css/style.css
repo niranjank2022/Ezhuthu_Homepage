@@ -12,3 +12,14 @@ header {
   footer {
     background-color: black;    
   }
+
+  button.col {
+    min-height: 15vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* margin-left: .1px; */
+  }
+
+  div.container-fluid {
+    height: 500px;
+  }
