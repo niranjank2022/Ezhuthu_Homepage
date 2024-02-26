@@ -4,12 +4,19 @@ body, html {
   margin: 0;
 }
 
-body {
-  background-color: black;
+nav {
+  margin: 1px;
 }
 
-div {
-  background-image: url("https://wallpapers.com/images/high/cornell-university-studying-on-ine-qywdku9fiu6zg0bf.webp");
+div.quote {
+  color: blueviolet;
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+  background-color: white;
+  background-image: url("https://wallpapers.com/images/high/studying-1548-x-1024-background-9d30kvrsghhc9xbh.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
