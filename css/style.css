@@ -10,11 +10,15 @@ nav{
   overflow: hidden;
   padding: 10px;
 }
+nav h1{
+  font-style: oblique;
+}
 #nav-item{
   display: flex;
   padding-left: 50%;
   padding-top: 20px;
   justify-content: space-around;
+  font-style: cursive;
 }
 #title{
   margin: 0;
@@ -32,7 +36,7 @@ a{
   color: white;
 }
 .side-img{
-  margin-top: 5%;
+  margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -43,50 +47,45 @@ a{
 .side-img img:hover, a:hover {
   transform: scale(1.1);
 }
-
 .maintext{
-  margin-top: 2%;
+  margin-top: 0%;
   margin-left: 5%;
   margin-right: 5%; 
 }
-#detail{
-  margin-left: 20px;
-  line-height: 2;
-  font-weight:lighter;
-  font-family:'Courier New', Courier, monospace;
-  font-size: 2cap;
-}
 .maintext h1{
-  line-height: 5vh;
   font-weight: normal;
-  font-size: 10cap;
+  font-size: 7cap;
+  font-family:cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.maintext p{
+  padding-bottom: 2px;
+  display: inline;
+  font-style: oblique;
+  border-bottom: .1cm solid white;
 }
 #img1{
   border-radius: 10%;
-}
-.outline{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 20vh;
-  border-radius: 100% 100% 0% 0%;
-  border-top: .1cm solid wheat;
 }
 #temp{
   display: flex;
   width: 100%;
   margin-top: 5%;
-  margin-bottom: 50px;
-}
-.outline img{
-  margin-right: .2cm;
+  margin-bottom: 40px;
 }
 .outline a{
-  margin-left: 50px;
+  margin-top: 25px;
+  margin-left: 30px;
 }
-.outline div{
-  width: 50%;
-  margin: 0% auto;
-  margin-top: 5vh;
+.outline{
+  display: flex;
+  justify-content:flex-start;
+  line-height: 15vh;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 15vh;
+  border-radius: 100% 100% 0% 0%;
+  border-top: .1cm solid wheat;
+}
+.outline h3{
+  padding-left: 50px;
 }
