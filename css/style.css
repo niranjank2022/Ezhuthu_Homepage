@@ -1,27 +1,91 @@
-body, html {
-  height: 100%;
-  width: 100%;
+
+body{
+  background-color: rgba(0, 0, 0, 0.895);
   margin: 0;
+  padding: 0;
+  color: white;
 }
-
-nav {
-  margin: 1px;
+nav{
+  background-color: #333;
+  overflow: hidden;
+  padding: 10px;
 }
-
-div.quote {
-  color: blueviolet;
-  font-size: 100px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+nav h1{
+  font-style: oblique;
 }
-
-main {
-  background-color: white;
-  background-image: url("https://wallpapers.com/images/high/studying-1548-x-1024-background-9d30kvrsghhc9xbh.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 90vw;
+#nav-item{
+  display: flex;
+  padding-left: 50%;
+  padding-top: 20px;
+  justify-content: space-around;
+  font-style: cursive;
+}
+#title{
+  margin: 0;
+  font-size: 1.3cm;
+  float: left;
+}
+a:hover{
+  color: rgba(211, 211, 211, 0.401);
+}
+a{
+  transition: transform 0.5s;
+  transition: color 0.5s;
+  font-size: large;
+  text-decoration: none;
+  color: white;
+}
+.side-img{
+  margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
+}
+.side-img img {
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.side-img img:hover, a:hover {
+  transform: scale(1.1);
+}
+.maintext{
+  margin-top: 0%;
+  margin-left: 5%;
+  margin-right: 5%; 
+}
+.maintext h1{
+  font-weight: normal;
+  font-size: 7cap;
+  font-family:cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.maintext p{
+  padding-bottom: 2px;
+  display: inline;
+  font-style: oblique;
+  border-bottom: .1cm solid white;
+}
+#img1{
+  border-radius: 10%;
+}
+#temp{
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 40px;
+}
+.outline a{
+  margin-top: 25px;
+  margin-left: 30px;
+}
+.outline{
+  display: flex;
+  justify-content:flex-start;
+  line-height: 15vh;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 15vh;
+  border-radius: 100% 100% 0% 0%;
+  border-top: .1cm solid wheat;
+}
+.outline h3{
+  padding-left: 50px;
 }
