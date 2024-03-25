@@ -2,200 +2,48 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ezhuthu - SAT Online Testing</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="script/main.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Ezhuthu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://kit.fontawesome.com/5bbc143db8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header class="p-3 text-bg-dark">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="/" class="d-flex align-items-center me-5 mb-2 mb-lg-0 text-white text-decoration-none h1">
-                    Ezhuthu
-                </a>
+  <header>
+    <a href="/" class="logo"><i class="fa-solid fa-pen"></i>Ezhuthu</a>
+    <input type="checkbox" id="check" />
+    <label for="check" class="icons"><i class="fa-solid fa-bars" id="menu-icon"></i><i class="fa-solid fa-xmark"
+        id="close-icon"></i></label>
 
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 mx-4 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
-                    <li>
-                        <a href="#features" class="nav-link px-2 text-white">Features</a>
-                    </li>
-                    <!-- <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li> -->
-                    <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-                </ul>
-
-                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
-                        aria-label="Search" />
-                </form>
-
-                <div class="text-end">
-                    <button type="button" class="btn btn-dark">100% Free</button>
-                    <button type="button" class="btn btn-outline-light me-2">
-                        Login
-                    </button>
-                    <button type="button" class="btn btn-light">Sign-up</button>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!-- <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
-        <div class="col-lg-6 px-0">
-            <h1 class="display-4 fst-italic">Unleash Your SAT Potential: Practice, Perfect, Prevail!</h1>
-            <p class="lead mb-0">
-                <a href="#" class="text-body-emphasis fw-bold" data-bs-toggle="collapse"
-                    data-bs-target="#collapsedContent" aria-expanded="false" aria-controls="collapsedContent">
-                    Embark on this journey towards SAT success with us at Ezhuthu...</a>
-
-            <div class="collapse" id="collapsedContent">
-                <p class="">
-                    Our mission is to not only help you achieve impressive scores but also to instill in you the
-                    confidence and skills needed for your academic future. So, are you ready to turn the page and start
-                    this exciting chapter of your academic adventure? Let's
-                    navigate the SAT seas together and set sail towards success!
-                </p>
-            </div>
-            </p>
-        </div>
-    </div> -->
-
-    <!-- <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-            <h2 class="display-5">Navigating the SAT Seas</h2>
-            <p class="lead">The SAT isn't just a test; it's an opportunity to showcase your potential to college
-                admissions teams. At Ezhuthu, we believe in empowering students like you to navigate the SAT seas with
-                confidence, competence, and, most importantly, success.</p>
-        </div>
-        <div class="bg-body-tertiary shadow-sm mx-auto"
-            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div> -->
-
-    <hr class="featurette-divider" />
-
-    <div id="features" class="container marketing">
-        <!-- Three columns of text below the carousel -->
-        <div class="row" style="display: none">
-            <div class="col-lg-4">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Pictures to be included here</title>
-                    <!--  -->
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                </svg>
-                <h2 class="fw-normal">Comprehensive Learning Resources</h2>
-                <p data-bs-toggle="collapse" data-bs-target="#feature1" aria-expanded="false" aria-controls="feature1">
-                    <a class="btn btn-secondary" href="#">View details »</a>
-                </p>
-                <p id="feature1" class="collapse">
-                    We offer a treasure trove of meticulously crafted study materials,
-                    practice tests, and expert tips to ensure you're well-equipped for
-                    every aspect of the SAT. From critical reading and mathematics to
-                    writing and language, our resources cover it all.
-                </p>
-            </div>
-            <!-- /.col-lg-4 -->
-
-            <div class="col-lg-4" style="display: none">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Pictures to be included here</title>
-                    <!--  -->
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                </svg>
-                <h2 class="fw-normal">Interactive Learning Experience</h2>
-                <p data-bs-toggle="collapse" data-bs-target="#feature2" aria-expanded="false" aria-controls="feature2">
-                    <a class="btn btn-secondary" href="#">View details »</a>
-                </p>
-                <p id="feature2" class="collapse">
-                    Learning doesn't have to be dull! Our interactive platform engages
-                    you in a dynamic and immersive learning experience. Dive into
-                    challenging practice questions, interactive lessons, and real-time
-                    feedback to sharpen your skills effectively.
-                </p>
-            </div>
-            <!-- /.col-lg-4 -->
-
-            <div class="col-lg-4" style="display: none">
-                <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Pictures to be included here</title>
-                    <!--  -->
-                    <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                </svg>
-                <h2 class="fw-normal">Personalized Course of Study</h2>
-                <p data-bs-toggle="collapse" data-bs-target="#feature3" aria-expanded="false" aria-controls="feature3">
-                    <a class="btn btn-secondary" href="#">View details »</a>
-                </p>
-                <p id="feature3" class="collapse">
-                    Recognizing that each student is unique, we provide personalized
-                    study plans tailored to your strengths and areas that need
-                    improvement. Maximize your efficiency and optimize your study time
-                    with a plan designed just for you.
-                </p>
-            </div>
-            <!-- /.col-lg-4 -->
-        </div>
-        <!-- /.row -->
-
-        <!-- START THE FEATURETTES -->
-        <!-- <hr class="featurette-divider">
-        <hr class="featurette-divider"> -->
-        
-        <div class="container-fluid text-center">
-
-            <div class="row">
-                <h1>Features</h1>
-            </div>
-
-            <div class="row row-cols-2 justify-content-even">
-                    <button class="col btn rounded-pill text-bg-dark" type="button">
-                        <p class="fs-4 fw-bold">User-friendly Dashboard</p>
-                    </button>
-                    <button class="col btn rounded-pill text-bg-dark" type="button">
-                        <p class="fs-4 fw-bold">Real-time Performance Analytics</p>
-                    </button>
-                    <button class="col btn rounded-pill text-bg-dark" type="button">
-                        <p class="fs-4 fw-bold">Performance Certificates</p>
-                    </button>
-                    <button class="col btn rounded-pill text-bg-dark" type="button">
-                        <p class="fs-4 fw-bold">Comprehensive Learning Resources</p>
-                    </button>
-            </div>
-        </div>
-    </div>
-
-    <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-white">Home</a>
-            </li>
-            <li class="nav-item">
-                <a href="#features" class="nav-link px-2 text-white">Features</a>
-            </li>
-            <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Pricing</a></li> -->
-            <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-white">FAQs</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-white">About</a>
-            </li>
-        </ul>
-        <p class="text-center text-white">© 2024 Ezhuthu, Inc</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <nav class="navlinks">
+      <a href="#">Feautures</a>
+      <a href="#">About</a>
+      <a href="#">Register Now</a>
+      <a href="#"><i class="fa fa-search"></i></a>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <img src="https://i.pinimg.com/736x/29/92/72/299272600f6458cf34a1331199675f16.jpg" alt="exam" />
+      <h1>SAT Exam Testing</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa esse
+        odio perferendis provident neque alias quia possimus aut voluptatibus
+        saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+        porro amet minus suscipit molestias dolores id eum veniam? Provident,
+        velit.
+      </p>
+      <button>Explore more</button>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; Ezhuthu</p>
+  </footer>
 </body>
 
 </html>
